@@ -26,7 +26,7 @@ $(document).ready(function() {
 				$('.niu').animate({
 					top: '0%'
 				}, 1500, 'easeOutExpo');
-				$('.girl').delay('500').animate({left: "-=400px"},1500);
+				$('.girl').delay('500').animate({left: "-=50%"},1500);
 				
 			}
 			if(index == 3){
@@ -91,7 +91,7 @@ $(document).ready(function() {
 				$('.niu').delay('200').animate({
 					top: '100%'
 				}, 1500, 'easeOutExpo');
-				$('.girl').delay('500').animate({left: "+=400px"},1500);
+				$('.girl').delay('500').animate({left: "+=50%"},1500);
 			}
 			if(index == '3'){
 				/*$('.section2').find('p').delay(500).animate({
@@ -113,7 +113,7 @@ $(document).ready(function() {
 				}, 1500, 'easeOutExpo');
 			}
 			if(index =='5'){
-				$('.section4').find('.superman').delay(500).animate({top:'-900px',left:'-450px'
+				$('.section4').find('.superman').delay(500).animate({top:'-150%',left:'-30%'
 					},1500,'easeOutExpo');
 			}
 			if(index == '6'){
@@ -126,9 +126,10 @@ $(document).ready(function() {
 				}, 1500, 'easeOutExpo');
 			}
 			if(index == '7'){
-				$('.section6').find('p').delay(500).animate({
+				$('.section6').find('p').animate({
 					bottom: '-120%'
-				}, 1500, 'easeOutExpo');
+				}, 0, 'easeOutExpo');
+				//$('.section6').find('p').hide();
 				$('.lufei').find('img').fadeOut(0);
 			}
 		}
