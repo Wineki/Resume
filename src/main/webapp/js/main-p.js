@@ -134,8 +134,8 @@ $(document).ready(function() {
 					left:'-60%'
 				}, 0, 'easeOutExpo');
 				
-				$('.abl').find('img').animate({
-					width:'0px',height:'600px'
+				$('.abl').find('img').delay('500').animate({
+					width:'0px'
 				}, 0, 'easeOutExpo');
 				$('.abl').animate({left:"+=300px"},500);
 			}
