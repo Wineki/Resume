@@ -24,7 +24,7 @@ $(document).ready(function() {
 					left:'130%'
 				}, 1500, 'easeOutExpo');
 				$('.niu').animate({
-					top: '0%'
+					top: '-58%'
 				}, 1500, 'easeOutExpo');
 				$('.girl').delay('500').animate({left: "-=800px"},1500);
 				
@@ -56,7 +56,7 @@ $(document).ready(function() {
 					},1500,'easeOutExpo');*/
 				$('.php').animate({left:'5%'},1500,
 					'easeOutExpo');
-				$('.dadou').animate({left:'60%'},1500,
+				$('.dadou').animate({left:'65%'},1500,
 					'easeOutExpo');
 				$('.eluosib').animate({left:'20%'},1500,
 					'easeOutExpo');
