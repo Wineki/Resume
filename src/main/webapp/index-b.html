@@ -1,8 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 <title>Resume-Wineki</title>
 <link rel="stylesheet" href="css/jquery.fullPage.css">
 <style>
@@ -15,29 +13,26 @@ highlight{color:#3F9;}
 #menu .active a { color: #fff; background-color: #333;}
 .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
 .section a{text-decoration:none;}
-.section0  p{position: relative; left: -120%;}
-.section0 .sun{postion:absolute; left:-45%; bottom:-100%;}
-.section0 .sun img{height:400px;width:600px;}
-.section0 .huojian{position:relative; left:-60%; bottom:-20%}
+.section0  p{position: relative; left: -100%;}
+.section0 .sun img{width: 25%;padding: 2%;position: fixed;top: 3%;right: 1%;}
+.section0 .huojian{position:absolute; left:-100%; bottom:-20%}
 .section0 .huojian img{height:150px; width:150px;}
-.section1  p{position: relative; bottom: -120%; font:20px "Microsoft Yahei"; color: #fff; }
+.section1  p{position: relative;left:-140%; top:87%; font:20px "Microsoft Yahei"; color: #fff; }
 .section1  div{position:relative;}
-.section1 .connect{padding-left:60px; padding-right:60px;height:300px; width:450px;top:-110%; left:-40%;}
+.section1 .connect{height: 14%;width: 34%;top: -38%;left: -25%;max-width: 450px;max-height: 300px;z-index:1;}
 .section1 .connect img{height:30px; width:30px; vertical-align:text-bottom;}
-.section1 .informat{padding-left:60px; padding-right:60px;height:250px; width:450px;position:relative; top:-190%; left:-40% }
+.section1 .informat{max-height: 250px;max-width: 450px;height:15%; width:35%; position: relative;top:-56%;left: 11%;}
 .section1 .informat img{height:30px; width:30px;vertical-align:text-bottom;}
-.section1 .girl{ postion:absolute; left:70%; top:-65%;}
-.section1 .girl img{height:500px; width:300px;}
-.section1 .niu{position:relative; top: 100%; left:-45%;}
+.section1 .niu{position:relative; top: 100%; left: -46.5%;}
 .section1 .niu img{height:150px; width:150px;}
 .section2 .blackbord{margin:0 auto; height:500px; width:800px; position:relative; top:0%;}
 .section2 .blackbord img{height:800px; width:800px;}
 .section2  p{position: absolute; left: 0%; bottom:-10%;}
 .section2  h3{position:relative; top:-110%; left:-50%; font-size:50px;}
 .section2  h5{position:relative; top:-120%; left:0%;}
-.section2 .hend{position:relative; left:-150%; top:-10%;}
-.section2 .hend img{position:relative; height:200px;width:200px;}
-.section2 .words{position:relative; float:left; right:-150%; top:-30%;}
+.section2 .hend{position:relative; left:-300%; top:-10%;}
+.section2 .hend img{position:relative; height:200px;width:200px;opacity: 0.5;}
+.section2 .words{position:relative; float:left; right:-200%; top:-30%;}
 .section2 .words img{position:relative; height:300px; width:600px;}	
 .section2 .heiban{position:relative; top:30%;}
 .section2 .heiban img{height:500px; width:800px;}
@@ -53,22 +48,20 @@ highlight{color:#3F9;}
 .section3 .dola p{color:#F3C; position:absolute; left:900px; top:45px;}
 .section3 .hzp p{color:#39F; position:absolute; left:180px; top:450px;}
 .section3 .eluosi p{color:#96C; position:absolute; right:180px; top:300px;}
-.section4  p{position: relative; bottom: -120%;}
-.section4 .superman{position:relative; left:-30%;top:-150%;}
-.section4 .superman img{height:200px; width:300px;}
-.section4 .php{position:relative; top:-60%; left:5%; height:300px; width:400px;}
-.section4 .php p{font-size:18px;background-color:#6F9;color:#000;}
-.section4 .dadou{position:relative; top:-140%; left:58%;height:400px; width:300px;}
-.section4 .dadou p{font-size:18px;background-color:#C9F;color:#000;}
-.section4 .eluosib{position:relative; top:-245%; left:60%;height:500px; width:200px;}
-.section4 .eluosib p{font-size:18px;background-color:#F96;color:#000;}
+.section4 .php{position: absolute;top: 41%;left: 5%;width: 20%;font-size: 16px;background-color: white;color:black;border-radius: 5px;background: rgba(1,1,1,0.2);border: 2px solid #FFF;}
+.section4 .dadou{position:relative; top:23%; left:58%;height:400px; width:300px;}
+.section4 .dadou p{font-size: 18px;background-color: #C9F;color: #000;border-radius: 80%;padding:10% 20%;background: rgba(0,0,0,0.2);border: 2px solid #FFF;}
+.section4 .eluosib{position:relative; top:0%; left:34%;width:20%;}
+.section4 .eluosib p{font-size:16px;background-color:#F96;color:#000;border: 2px solid #FFF;border-radius:50px;overflow:hidden;}
+.section4 .renren{position:relative; top:-15%; left:75%;width:25%;}
+.section4 .renren p{font-size:16px;background-color:green;color:#000;border: 2px solid #FFF;border-radius: 3rem;margin:10%;}
 .section5  p{position: relative; left: -120%;}
 .section5 .abl img{height:500px; width:0px;}
 .section5 .abl{position:relative; left:450px; top:100px;}
-.section5 .ablw{position:relative; left:-30%; top:-75%;; width:600px; height:600px;}
+.section5 .ablw{position:relative; left:-30%; top:-48%;; width:43%;}
 .section5 .ablw p{font-size:20px;}
 .srction6 .lufei{height:500px; width:400px;position:relative; top:-20px; left:0px;}
-.section6 .sel{height:500px; width:400px;position:absolute; top:50px; left:35%;}
+.section6 .sel{width:16%;position:absolute; top:50%; left:42%;}
 .section6 .lufei img{height:500px; width:400px; display:none; position:relative; top:-50px; left:0px;}
 .section6 .xuanyan img{height:500px; width:400px; position:relative; top:0px; left:50px;}
 .section6  p{position: relative; bottom: -120%; font-size:24px;}
@@ -90,15 +83,14 @@ highlight{color:#3F9;}
 	</div>
     <div class="section section1" id="info">
     	<div class="niu" id="niu"><img src="images/niu.png"></div>
-        <h3 style="position:relative; left:10%; top:-15%;">关于我</h3>
-        <h6 style="position:relative; left:10%;top:-20%;">姓名：武宁&nbsp;&nbsp;&nbsp;Wineki</h6>
+        <h3 style="position:relative; left:0%; top:-20%;">关于我</h3>
+        <h6 style="position:relative; left:0%;top:-25%;">姓名：武宁</h6>
         <div id="connect" class="connect">
             <p><img src="images/portfolio.png">电话：186-1139-9041 </p>
-            <p><a href="wuning_aiali@163.com"><img src="images/mail.png"></a>邮箱：<a href="wuning_aiali@163.com">wuning_aiali@163.com</a></p>
+            <p><a href="wuning_aiali@163.com" ><img src="images/mail.png"></a>邮箱：<a href="wuning_aiali@163.com">wuning_aiali@163.com</a></p>
             <p><a href="http://blog.csdn.net/u014426752"><img src="images/rss.png"></a>个人博客：<a href="http://blog.csdn.net/u014426752">http://blog.csdn.net/u014426752</a></p>
-            <p><a href="https://github.com/Wineki"><img src="images/link.png"></a>gitbuh主页：<a href="https://github.com/Wineki">https://github.com/Wineki</a></p>
+            <p><a href="https://github.com/Wineki"><img src="images/link.png"></a>github主页：<a href="https://github.com/Wineki">https://github.com/Wineki</a></p>
       	</div>
-        <div class="girl"><img src="images/girl.png"></div>
         <div id="informat" class="informat">
         	<p><img src="images/male_user.png">现居：北京</p>
             <p><img src="images/red_heart.png">年龄：22 </p>
@@ -118,7 +110,7 @@ highlight{color:#3F9;}
 	</div>
     <div class="section section3" id="exp">
     
-        <h3 style="color:#2ECBC4; position:absolute; top:50%; left:0%">我的作品</h3>
+        <!--<h3 style="color:#2ECBC4; position:absolute; top:50%; left:0%">我的作品</h3>
         <p style="font-size:18px;position:relative; left:0%;top:30%">三个地标链接，点开看看..</p>
         <div class="loufang"><img src="images/loufang.png"></div>
         <div class="bus"><img src="images/bus.png"></div>
@@ -130,21 +122,22 @@ highlight{color:#3F9;}
         <div class="dibiao2" style="position:absolute; left:850px; top:10px;"><a href="others/Doraemon.html"><img src="images/tubiao2.png"></a></div>
         <div class="dola"><p><a href="others/Doraemon.html">CSS Doraemon</a></p></div>
         <div class="dibiao3" style="position:absolute; right:200px; top:250px;"><a href="others/eluosi.html"><img src="images/tubiao3.png"></a></div>
-        <div class="eluosi"><p><a href="others/eluosi.html">俄罗斯方块</a></p></div>
+        <div class="eluosi"><p><a href="others/eluosi.html">俄罗斯方块</a></p></div>-->
+        <a>我的作品</a>
 	</div>
     <div class="section section4" id="exp">
-        <h3 style="position:relative; top:35%; left:-33%;">项目经历</h3>
-    	<div class="superman"><img src="images/girl2.png"></div>
-        <div class="php"><p>凤凰网PHP组开发
-独立开发一个手机端微信的时尚游戏项目（沿用“别踩白块儿”游戏），负责编写项目中前端逻辑，用js编写整个游戏，并上线推广。
-修改产品提出的更改“化妆品库”界面以及后端调用数据库的相关需求，更改后台登陆界面。优化数据库查询时间，为数据库查询建立索引。查询数据库中的数据，完成产品提出的统计需求。</p></div>
+        <h3 style="position:absolute; top:0%; left:43%;">项目经历</h3>
+        <div class="php">凤凰网PHP组开发
+独立开发一个手机端微信的时尚游戏项目（沿用“别踩白块儿”游戏），负责编写项目中前端逻辑，用js编写整个游戏，并上线推广。</div>
 		<div class="dadou"><p>大豆基因数据挖掘
-将化学实验室中对大豆基因研究的成果以及实验室发表的280篇大豆科研结果通过tees以及textpresso软件搭建研究环境，对数据进行整理统计，将数据放入数据库中，通过配置服务器（对服务器的端口进行监听测试，以及服务器网络间数据传输，对服务器的并发访问次数，访问时间，访问具体路径，访问完成数，失败数，以及发送数据量的测试等，搭建网站，对网页中的相关bug进行测试。</p></div>
+将化学实验室中对大豆基因研究的成果通过tees以及textpresso软件搭建研究环境，对数据进行整理统计,病在网站中进行显示。</p></div>
 		<div class="eluosib"><p>俄罗斯方块
 用js编写俄罗斯方块小游戏，通过js dom创建节点，并用具体的方法控制方块下落的方向速度等。</p></div>
+        <div class="renren"><p>人人网前端开发完成web端以及移动端的页面会员VIP增值改版需求，并在移动端使用H5求改或增添页面。</p>
+        </div>
 	</div>
     <div class="section section5" id="abl">
-        <h3 style="position:relative; top:15%;">专业技能</h3>
+        <h3 style="position:relative; top:10%;">专业技能</h3>
         <div class="abl"><img src="images/diannao.png"></div>
         <div class="ablw"><p>熟悉HTML语言，能较熟练运用js，js dom，了解jQuery框架，熟悉css+div布局，css，实现页面特效和用户交互体验，简单了解css3以及HTML5。会使用Dreamwaver进行前端开发，会使用firebug进行调试。有一定的前端开发经验。
 熟悉C语言以及基本数据结构知识,可以用C语言实现数据结构中栈，队列的线性存储方式以及链式存储方式，以及进行二叉树的遍历。可以用C语言或C++编写简单的算法，如排序（包括快速排序，归并排序，插入排序，选择排序，冒泡排序等），二分查找，以及最短路径等。
