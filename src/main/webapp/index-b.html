@@ -48,13 +48,19 @@ highlight{color:#3F9;}
 .section3 .dola p{color:#F3C; position:absolute; left:900px; top:45px;}
 .section3 .hzp p{color:#39F; position:absolute; left:180px; top:450px;}
 .section3 .eluosi p{color:#96C; position:absolute; right:180px; top:300px;}
-.section4 .php{position: absolute;top: 41%;left: 5%;width: 20%;font-size: 16px;background-color: white;color:black;border-radius: 5px;background: rgba(1,1,1,0.2);border: 2px solid #FFF;}
-.section4 .dadou{position:relative; top:23%; left:58%;height:400px; width:300px;}
+.section4 .php{position: absolute;top: 41%;left: 5%;width: 20%;font-size: 16px;background-color: white;color:black;border-radius: 5px;background: rgba(1,1,1,0.2);border: 2px solid #FFF;box-shadow: 9px 10px 21px #888888;}
+.section4 .dadou{position:relative; top:23%; left:58%;height:400px; width:300px;-webkit-animation:mysecond 5s;animation:mysecond 5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;}
 .section4 .dadou p{font-size: 18px;background-color: #C9F;color: #000;border-radius: 80%;padding:10% 20%;background: rgba(0,0,0,0.2);border: 2px solid #FFF;}
-.section4 .eluosib{position:relative; top:0%; left:34%;width:20%;}
-.section4 .eluosib p{font-size:16px;background-color:#F96;color:#000;border: 2px solid #FFF;border-radius:50px;overflow:hidden;}
+@-webkit-keyframes mysecond{from{-webkit-transform:rotate3d(1,1,1,0deg);transform:rotate3d(1,1,1,0deg);-moz-transform:rotate3d(1,1,1,0deg);-o-transform:rotate3d(1,1,1,0deg);}to{-webkit-transform:rotate3d(1,1,1,360deg);transform:rotate3d(1,1,1,360deg);-moz-transform:rotate3d(1,1,1,360deg);-o-transform:rotate3d(1,1,1,360deg);}}
+@keyframes mysecond{from{-webkit-transform:rotate3d(1,1,1,0deg);transform:rotate3d(1,1,1,0deg);-moz-transform:rotate3d(1,1,1,0deg);-o-transform:rotate3d(1,1,1,0deg);}to{-webkit-transform:rotate3d(1,1,1,360deg);transform:rotate3d(1,1,1,360deg);-moz-transform:rotate3d(1,1,1,360deg);-o-transform:rotate3d(1,1,1,360deg);}}
+.section4 .eluosib{position:relative; top:0%; left:30%;width:20%;transform:rotate(340deg);-webkit-transform:rotate(340deg);-moz-transform:rotate(340deg);-o-transform:rotate(340deg);}
+.section4 .eluosib p{font-size:16px;background-color:#F96;color:#000;border: 2px solid #FFF;border-radius:50px;overflow:hidden;text-shadow: 2px 2px 1px #888888;}
 .section4 .renren{position:relative; top:-15%; left:75%;width:25%;}
-.section4 .renren p{font-size:16px;background-color:green;color:#000;border: 2px solid #FFF;border-radius: 3rem;margin:10%;}
+.section4 .renren p{font-size:16px;background-color:green;color:#000;border: 2px solid #FFF;border-radius: 3rem;margin:10%;-webkit-animation:myfirst 5s;animation:myfirst 5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;}
+@keyframes myfirst{0%{background:red;}25%{background:blue;}50%{background:yellow;}75%{background:white;}100%{background:green;}}
+@-moz-keyframes myfirst{0%{background:red;}25%{background:blue;}50%{background:yellow;}75%{background:white;}100%{background:green;}}
+@-webkit-keyframes myfirst{0%{background:red;}25%{background:blue;}50%{background:yellow;}75%{background:white;}100%{background:green;}}
+@-o-keyframes myfirst{0%{background:red;}25%{background:blue;}50%{background:yellow;}75%{background:white;}100%{background:green;}}
 .section5  p{position: relative; left: -120%;}
 .section5 .abl img{height:500px; width:0px;}
 .section5 .abl{position:relative; left:450px; top:100px;}
