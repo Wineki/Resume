@@ -24,7 +24,7 @@ $(document).ready(function() {
 					left:'130%'
 				}, 1500, 'easeOutExpo');
 				$('.niu').animate({
-					top: '-58%'
+					top: '-50%'
 				}, 1500, 'easeOutExpo');
 				$('.girl').delay('500').animate({left: "-=800px"},1500);
 				
@@ -55,10 +55,6 @@ $(document).ready(function() {
 				/*$('.section4').find('.superman').animate({top:'70%',left:'40%'
 					},1500,'easeOutExpo');*/
 				$('.php').animate({left:'5%'},1500,
-					'easeOutExpo');
-				$('.dadou').animate({left:'65%'},1500,
-					'easeOutExpo');
-				$('.eluosib').animate({left:'20%'},1500,
 					'easeOutExpo');
 			}
 			if(index == 6){
@@ -124,10 +120,7 @@ $(document).ready(function() {
 					},2000,'easeOutExpo');*/
 				$('.php').delay(400).animate({left:'-80%'},1500,
 					'easeOutExpo');
-				$('.dadou').delay(400).animate({left:'150%'},1500,
-					'easeOutExpo');
-				$('.eluosib').delay(400).animate({left:'-80%'},1500,
-					'easeOutExpo');
+				
 			}
 			if(index == '6'){
 				$('.ablw').find('p').delay('500').animate({
